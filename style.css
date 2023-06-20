@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+.box {
+  position: relative;
+}
+.article {
+  position: absolute;
+  top: 200px;
+  left: 498px;
+  margin-bottom: 10px;
+}
+
+.main {
+  width: 200px;
+  /* height: 400px; */
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  right: 615px;
+  margin-bottom: 40px;
+
+  height: 300px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(158, 36%, 37%);
+}
+
+.per {
+  line-height: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: hsl(228, 12%, 48%);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.para {
+  color: hsl(228, 12%, 48%);
+  font-family: Montserrat;
+  font-weight: 500, 700;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 30px;
+}
+.price {
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-style: italic;
+}
+.pr {
+  position: relative;
+}
+.price1 {
+  position: absolute;
+  top: -3px;
+  left: 60px;
+  font-size: 10px;
+  color: hsl(228, 12%, 48%);
+
+  text-decoration: line-through;
+}
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 10px;
+
+  font-weight: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+.icon {
+  width: 10px;
+  height: 10px;
+  padding-right: 10px;
+}
+
+/* .aside {
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  margin-bottom: 20px;
+
+  height: 300px;
+  padding-left: 20px;
+  border-radius: 5px;
+} */
